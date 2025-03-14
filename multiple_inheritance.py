@@ -13,3 +13,5 @@ class D(B, C):
 d = D()
 d.show()  # Output: B (follows MRO: D → B → C → A)
 print(D.__mro__)  # (D, B, C, A, object)
+
+
